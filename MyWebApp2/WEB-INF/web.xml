@@ -1,0 +1,10 @@
+<web-app>
+  <servlet>
+    <servlet-name>myapp2</servlet-name>
+    <servlet-class>AdditionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>myapp2</servlet-name>
+    <url-pattern>/addition</url-pattern>
+  </servlet-mapping>
+</web-app>
